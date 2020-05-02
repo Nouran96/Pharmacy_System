@@ -42,7 +42,7 @@ You should have `node` and `composer` installed. If you don't, install node from
     ```
 10. Seed the database
     ```sh
-    php artisan db:seed --class=RolesAndPermissionSeeder
+    php artisan db:seed --class=RolesAndPermissionsSeeder
     php artisan db:seed --class=AdminTableSeeder
     ```
 11. Run the Schedule
@@ -54,6 +54,7 @@ You should have `node` and `composer` installed. If you don't, install node from
     php artisan serve
     ```
 13. Open your browser on this url ``` http://localhost:8000```
+14. To login as admin, your credentials are ``` admin@admin.com ``` with password ```123456```
 
 ### License
 MIT License
